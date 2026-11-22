@@ -1,0 +1,17 @@
+{
+  "name": "sqlite-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small full-stack task manager using Express, SQLite, and Server-Sent Events.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sql.js": "^1.17.0"
+  }
+}
